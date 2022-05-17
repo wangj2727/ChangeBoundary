@@ -3,6 +3,7 @@ This repository stored R codes used to create an R shiny app, which explores bou
  
 # View app
 https://rstudio-connectdev.niaid.nih.gov/connect/#/apps/b84d625d-f736-4085-a09a-dfa8d6e64fb7/access
+(If you could not open the above link, copy this line of code  `runGitHub( "ChangeBoundary", "wangj2727")` into your R console and run.)
 
 # R version
 R version 4.1.1 (2021-08-10)
