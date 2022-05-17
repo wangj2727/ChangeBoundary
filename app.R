@@ -29,28 +29,6 @@ crossprob<-function(theta,tadapt,z,futimes,fubounds){
 
 iuseType <- c("O'Brien Fleming","Pocock","Power family", "Hwang-Shih-DeCani family")
 
-
-
-
-
-
-
-
-
-
-ui <- dashboardPage(header = header,
-                    sidebar = sidebar,
-                    body = body
-)
-
-
-
-
-
-
-
-
-
 ui <- fluidPage(
   
   theme = bs_theme(version = 4, bootswatch = "united"), # yeti, minty,etc.
