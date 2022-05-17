@@ -1,14 +1,14 @@
-require(shiny)
-require(dplyr)
-require(tidyr)
-require(shinythemes)
-require(shinycssloaders)
-require(DT)
-require(stringr)
-require(ldbounds)
-require(shinyjs)
-require(bslib)
-require(shinydashboard)
+library(shiny)
+library(dplyr)
+library(tidyr)
+library(shinythemes)
+library(shinycssloaders)
+library(DT)
+library(stringr)
+library(ldbounds)
+library(shinyjs)
+library(bslib)
+library(shinydashboard)
 
 
 crossprob<-function(theta,tadapt,z,futimes,fubounds){ 
@@ -28,6 +28,7 @@ crossprob<-function(theta,tadapt,z,futimes,fubounds){
 }
 
 iuseType <- c("O'Brien Fleming","Pocock","Power family", "Hwang-Shih-DeCani family")
+
 
 ui <- fluidPage(
   
@@ -182,8 +183,20 @@ ui <- fluidPage(
          
                ))
                
-)))
+),
 
+  tabPanel("R Codes",
+         fluidRow(
+           column(10, offset=1,
+                     div(icon("github")),
+                     a("View code on GitHub",href="https://github.com/wangj2727/ChangeBoundary"),
+                     h5("If the above link didn't work, try type this link, https://github.com/wangj2727/ChangeBoundary, to the url."),
+                     h5("R version: 4.1.1 (2021-08-10)"),
+                     h5("Key package version:"),
+                     HTML("<ul><li>ldbounds_2.0.0</li><li>shiny_1.7.1</li><li>dplyr_1.0.7</li><li>shinycssloaders_1.0.0</li><li>shinyjs_2.1.0</li><li>bslib_0.3.1</li></ul>")
+           )
+           ))
+))
 
 server <- function(input, output, session) {
 
