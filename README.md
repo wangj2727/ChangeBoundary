@@ -2,7 +2,7 @@
 This repository stored R codes used to create an R shiny app, which explores boundary and power after adding interm looks.
  
 # View app
-https://rstudio-connectdev.niaid.nih.gov/connect/#/apps/134/access
+https://rstudio-connectdev.niaid.nih.gov/connect/#/apps/b84d625d-f736-4085-a09a-dfa8d6e64fb7/access
 
 # R version
 R version 4.1.1 (2021-08-10)
