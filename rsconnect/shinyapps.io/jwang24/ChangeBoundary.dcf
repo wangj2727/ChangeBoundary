@@ -1,0 +1,14 @@
+name: ChangeBoundary
+title: ChangeBoundary
+username:
+account: jwang24
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6698092
+bundleId: 6701900
+url: https://jwang24.shinyapps.io/ChangeBoundary/
+when: 1672954860.15561
+lastSyncTime: 1672954860.15561
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .gitattributes|README.md
