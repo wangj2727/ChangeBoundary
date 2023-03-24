@@ -13,9 +13,9 @@ R version 4.1.3 (2022-03-10)
 
 # R package information
     + sessioninfo::package_info()
- package         * version date (UTC) lib source
- askpass           1.1     2019-01-13 [1] CRAN (R 4.1.3)
- bslib           * 0.3.1   2021-10-06 [1] CRAN (R 4.1.3)
+     package         * version date (UTC) lib source
+     askpass           1.1     2019-01-13 [1] CRAN (R 4.1.3)
+     bslib           * 0.3.1   2021-10-06 [1] CRAN (R 4.1.3)
  cachem            1.0.6   2021-08-19 [1] CRAN (R 4.1.3)
  cli               3.4.0   2022-09-08 [1] CRAN (R 4.1.3)
  curl              4.3.2   2021-06-23 [1] CRAN (R 4.1.3)
